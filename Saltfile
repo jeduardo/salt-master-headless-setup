@@ -1,0 +1,8 @@
+salt-ssh:
+    config_dir: etc/salt
+    log_file: log/ssh
+    max_procs: 30
+#    wipe_ssh: True
+    # Fixing error when running salt-formula - https://github.com/saltstack-formulas/salt-formula/issues/140
+    extra_filerefs:
+      - salt://salt/formulas.jinja

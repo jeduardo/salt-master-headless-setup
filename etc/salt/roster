@@ -1,0 +1,4 @@
+salt.winterhold.org:
+  host: salt.winterhold.org
+  user: root
+  priv: agent-forwarding
