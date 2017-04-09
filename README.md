@@ -17,6 +17,15 @@ git submodule init
 git submodule update
 ```
 
+It is also necessary to create some local directories required for the correct
+execution of the salt-ssh command that whilst initially empty will be filled in
+with runtime information from the salt execution. This can be done with the following 
+command:
+
+```shell
+mkdir -p {cache,config,log}
+```
+
 Provided that the machine name is configured accordingly into `etc/salt/roster`, 
 `srv/salt/top.sls` and `srv/pillar/top.sls`, all that is required to complete
 the procedure is to execute the following command:
