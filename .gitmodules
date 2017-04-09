@@ -1,0 +1,6 @@
+[submodule "formulas/salt-formula"]
+	path = formulas/salt-formula
+	url = https://github.com/saltstack-formulas/salt-formula.git
+[submodule "srv/formulas/salt-formula"]
+	path = srv/formulas/salt-formula
+	url = https://github.com/saltstack-formulas/salt-formula.git
